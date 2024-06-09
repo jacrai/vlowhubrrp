@@ -1,0 +1,168 @@
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/corelorax/Ui-Libs-Backups/main/NeverloseLibSource.lua"))()
+
+local Window = Library:Window({
+    text = "VLOW HUB"
+})
+
+
+local TabSection = Window:TabSection({
+    text = ""
+})
+
+local Tab = TabSection:Tab({
+    text = "AC6",
+})
+
+local Section = Tab:Section({
+    text = "Harked"
+})
+
+Section:Button({
+    text = "PRESS",
+    callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/jacrai/vlowharkedfix/main/jacraifakervlowa", true))()
+    end,
+})
+
+local Section2 = Tab:Section({
+    text = "Crash map"
+})
+
+Section2:Button({
+    text = "PRESS",
+    callback = function()
+        local rmt = game:service'ReplicatedStorage':FindFirstChild("del")
+        for i,v in next, workspace:GetChildren() do
+            rmt:FireServer(v)
+        end
+    end,
+})
+
+local Section3 = Tab:Section({
+    text = "Vlow music"
+})
+
+Section3:Button({
+    text = "PRESS",
+    callback = function()
+        sound = true 
+        local ID = "rbxassetid://1837478410" 
+        local Name = "xd" 
+        local Volume = 1000
+        local Pitch = 1
+
+        for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+            if v:IsA("RemoteEvent") and v.Name == "AC6_S" then
+                if sound == true then
+                    v:FireServer("newSound", Name, workspace, ID, Pitch, Volume, true)
+                    v:FireServer("playSound", Name)
+                end 
+
+                if sound == false then
+                    v:FireServer("stopSound", Name)
+                end
+            end
+        end
+    end,
+})
+
+local Section4 = Tab:Section({
+    text = "Cool symbol"
+})
+
+Section4:Button({
+    text = "PRESS",
+    callback = function()
+        local Size = {
+  X = 3,
+  Y = 3,
+  Z = 3
+}
+
+local cFrame = CFrame.new(0,0,0)
+local cFrame2 = CFrame.new(0,3,0)
+local cFrame3 = CFrame.new(0,6,0)
+local cFrame4 = CFrame.new(0,9,0)
+local cFrame9 = CFrame.new(0,12,0)
+local cFrame5 = CFrame.new(0,12,-3)
+local cFrame6 = CFrame.new(0,12,-6)
+local cFrame7 = CFrame.new(0,0,3)
+local cFrame8 = CFrame.new(0,0,6)
+local cFrame10 = CFrame.new(0,6,3)
+local cFrame11 = CFrame.new(0,6,6)
+local cFrame12 = CFrame.new(0,9,6)
+local cFrame13 = CFrame.new(0,12,6)
+local cFrame14 = CFrame.new(0,6,-3)
+local cFrame15 = CFrame.new(0,6,-6)
+local cFrame16 = CFrame.new(0,3,-6)
+local cFrame17 = CFrame.new(0,0,-6)
+
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame2,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame3,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame4,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame9,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame5,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame6,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame7,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame8,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame10,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame11,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame12,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame13,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame14,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame15,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame16,Size=Size})
+game:GetService('ReplicatedStorage')['ACS_Engine'].Eventos.qreach:FireServer(3,{Fortified={},Destroyable=workspace},CFrame.new(),CFrame.new(),{CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*cFrame17,Size=Size})
+    end,
+})
+
+local Section5 = Tab:Section({
+    text = "Kill RRP admin 1"
+})
+
+
+
+Section5:Button({
+    text = "PRESS",
+    callback = function()
+        local rmt = game:service'ReplicatedStorage':FindFirstChild("del")
+        for i,v in pairs(game:GetService("ReplicatedStorage"):GetDescendants()) do
+            if v:IsA("ACS_Engine") or v:IsA("Admins") or v:IsA("ACS_Engine") or v:IsA("AdminPanelRS") and v.Name == "AdminPanelRS" or v.Name == "AdminPanelRS" or v.Name == "HDAdminClient" or v.Name == "Admins" then
+                rmt:FireServer(v) 
+            end
+        end
+    end,
+})
+
+local Section6 = Tab:Section({
+    text = "Kill RRP admin 2"
+})
+
+Section6:Button({
+    text = "PRESS",
+    callback = function()
+        local rmt = game:service'ReplicatedStorage':FindFirstChild("del")
+        for i,v in pairs(game:GetService("StarterGui"):GetDescendants()) do
+            if v:IsA("AdminPanelV2") or v:IsA("AdminPanelV2") or v:IsA("AdminPanelV2") or v:IsA("AdminPanelV2") and v.Name == "AdminPanelV2" or v.Name == "HDAdminGUIs" or v.Name == "МагазинГеймпассовGUI" or v.Name == "МагазинГеймпассовGUI" or v.Name == "HDAdminGUIs" or v.Name == "AdminPanelV2"then
+                rmt:FireServer(v) 
+            end
+        end
+    end,
+})
+
+local Section7 = Tab:Section({
+    text = "Kill RRP admin 3"
+})
+
+Section7:Button({
+    text = "PRESS",
+    callback = function()
+        local rmt = game:service'ReplicatedStorage':FindFirstChild("del")
+        for i,v in pairs(game:GetService("ReplicatedStorage"):GetDescendants()) do
+            if v:IsA("BanUnban") or v:IsA("BanUnban") or v:IsA("BanUnban") or v:IsA("BanUnban") and v.Name == "BanUnban" or v.Name == "BanUnban" or v.Name == "KickPlayer" or v.Name == "KickPlayer" or v.Name == "AdminClicked" or v.Name == "HDAdminSetup"then
+                rmt:FireServer(v) 
+            end
+        end
+    end,
+})
